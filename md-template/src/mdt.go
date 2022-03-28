@@ -41,7 +41,7 @@ func main() {
 	flag.Usage = func() {
 		fmt.Printf("Usage of %s:\n", os.Args[0])
 		fmt.Println()
-		fmt.Println("mdt --templatePath=xxx --title \"linux 应该如何学\" \n")
+		fmt.Println("mdt --templatePath=xxx --title \"linux 应该如何学\"")
 		flag.PrintDefaults()
 	}
 
